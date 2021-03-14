@@ -79,3 +79,27 @@ li.nav-links:hover {
     line-height: 27px;
     height: 36px;
 }
+
+/* Footer styles and positioning */
+footer {
+    background-color: #f2f2f2;
+    border-top: 2px solid #e4e4e4;
+    bottom: 0;
+    padding-bottom: 0;
+    width: 100%;
+}
+
+footer ul li {
+    display: inline;
+    color: #666666;
+    padding: 13px;
+}
+
+footer ul {
+    float: left;
+    padding: 10px;
+}
+
+.footer-right {
+    float: right;
+}
