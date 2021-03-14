@@ -1,55 +1,60 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Google</title>
-        <link href="styles.css" rel="stylesheet">
-    </head>
+<head>
+	<title>Google</title>
+	<meta charset="UTF-8">
+	<link href="styles.css" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
 
-    <body>
-        <header>
-            <nav>
-                <ul id="nav-bar-left">
-                    <li class="nav-links">About</li>
-                    <li class="nav-links">Store</li>
-                </ul>
-                <ul id="nav-bar-right">
-                    <li class="nav-links">Gmail</li>
-                    <li class="nav-links">Images</li>
-                </ul>
-            </nav>
-        </header>
+<body>
+	<header>
+		<nav class="navbar">
+			<div class="account-div">
+				<img class="symbol" src="https://lh3.googleusercontent.com/ogw/ADGmqu-alksy63xH--DKwfOUVcBIB-L0gwkKGlhLq_TFgg=s32-c-mo">
+			</div>
+			<ul class="navbar-left">
+				<li class="nav-link">About</li>
+				<li class="nav-link">Store</li>
+			</ul>
+			<ul class="navbar-right">
+				<li class="nav-link">Gmail</li>
+				<li class="nav-link">Images</li>
+			</ul>
+			
+		</nav>
+	</header>
 
-        <!-- Google Logo -->
-        <div class="logo">
-            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
-        </div>
+	<div id="logo">
+		<img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
+	</div>
+	<div class="searchbar">
+	</div>
 
-        <!-- Searchbar -->
-        <div class="searchbar">
-            <form>
-                <label for="search"></label>
-                <input type="text" id="search">
-            </form>
-        </div>
+	<div class="buttons">
+		<button>Google Search</button>
+		<button>I'm Feeling Lucky</button>
+	</div>
 
-        <!-- Buttons -->
-        <div class="buttons">
-            <button id="google-search">Google Search</button>
-            <button id="lucky">I'm Feeling Lucky</button>
-        </div>
-
-        <!-- Footer -->
-        <footer>
-            <ul class="footer-left">
-                <li>Advertising</li>
-                <li>Business</li>
-                <li>How Search Works</li>
-            </ul>
-            <ul class="footer-right">
-                <li>Privacy</li>
-                <li>Terms</li>
-                <li>Settings</li>
-            </ul>
-        </footer>
-    </body>
+	<footer>
+		<p class="yomama">United Kingdom</p>
+		<div class="footer">
+			<div class="footer-left">
+				<ul>
+					<li class="footer-link">Advertising</li>
+					<li class="footer-link">Business</li>
+					<li class="footer-link">How Search Works</li>
+				</ul>
+			</div>
+			<div class="footer-right">
+				<ul>
+					<li class="footer-link">Privacy</li>
+					<li class="footer-link">Terms</li>
+					<li class="footer-link">Settings</li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+</body>
 </html>
