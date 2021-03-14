@@ -1,0 +1,1 @@
+Project goal - Recreate the Google homepage to a fair degree of accuracy
